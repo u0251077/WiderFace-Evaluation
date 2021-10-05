@@ -36,11 +36,11 @@ https://drive.google.com/drive/folders/19nDDSkAga1CNFDPhM-kjx4BX5957XJrS?usp=sha
 $ python3 evaluation.py -p <your prediction dir> -g <groud truth dir>
 ````
 ##### input&output
-- 輸入：
+- input：
 31_Waiter_Waitress_Waiter_Waitress_31_188.jpg
 ![](https://i.imgur.com/3kvObTC.jpg)
 
-- 產出：
+- output：
 31_Waiter_Waitress_Waiter_Waitress_31_188.txt
 
 ```
@@ -50,12 +50,12 @@ $ python3 evaluation.py -p <your prediction dir> -g <groud truth dir>
 572.0 359.0 93.0 122.0 0.9993485808372498
 ```
 
-- 產出說明
+- output explanation
 ```
-檔案名稱
-人臉數量
-(第一個人臉的)x起始 y起始 高 寬 機率
-(第n個人臉的)x起始 y起始 高 寬 機率
+file_name
+face_numbers
+(1st)x_start y_start height width prob.
+(n-th)x_start y_start height width prob.
 ...
 
 ```
